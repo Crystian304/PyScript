@@ -230,7 +230,7 @@ def quaternion_division():
 # function to exit the program
 def exit():
     print()
-    exit = input("Exit? y ou n: ")
+    exit = input("Exit? (y/n): ")
     if exit == "y":
         sys.exit(0)
     elif exit == "n":
@@ -317,7 +317,7 @@ def main():
 
 # function of beginning of the program
 print()
-start = input("Enter the calculator? y ou n: ")
+start = input("Enter the calculator? (y/n): ")
 if start == "y":
     main()
 elif start == "n":
